@@ -1,9 +1,9 @@
 # Basic Console EFCore
 
-This project is enough to insure the development environment is working properly for EF Core development in macOs.
+This project is enough to insure the development environment is working properly for EF Core development in macOS.
 Although, this should work on Windows or Linux if you are using Docker.
 
-## Setup on macOs
+## Setup on macOS
 
 1. Install docker sql server container
 
