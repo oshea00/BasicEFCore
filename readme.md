@@ -21,12 +21,11 @@ mssql -u sa -p reallyStrong1Pwd
 1. Edit connection string in Program.cs DemoContext to math your settings from above.
 Navigate command line to SqlOsx project directory.
 
-2. Run migrations and create inital database
+2. Run migrations and create inital database (repeat after migration updates)
 >dotnet ef database update
 
-3. To add migrations after Model changes and update database.
+3. To add migrations after Model changes.
 >dotnet ef migrations add <new migration name>
->dotnet ef database update
 
 See dotnet [CLI EF Core Commands Reference](https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/powershell))
 
